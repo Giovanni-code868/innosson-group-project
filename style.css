@@ -39,6 +39,26 @@ main p{
   font-weight: 700;
 }
 
+footer {
+  background-color: rgba(15, 15, 15, 1);
+}
+
+footer .footers h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer .footers p  {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+
+
+
 @media (max-width:475px) {
 
   main p{
@@ -75,32 +95,77 @@ main p{
 
 .section-2{
   background-color: rgb(254, 254, 254);
+
 }
+
+.section-2 h2{
+  color:rgba(54, 95, 163, 1);
+}
+
+.section-2 button{
+background-color:rgba(56, 214, 158, 1);
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: inline-flex;
+align-items: center;
+}
+
+#Arrow-img{
+  width: 20px;
+  height: 20px;
+  margin-left:5px;
+}
+
+.gmail{
+  background-color:  rgba(46, 49, 146, 1);
+  color: white;
+  font-family: "Noto Sans" , sans-serif;
+  font-size:15px;
+  font-weight: 600px;
+  width: 50%
+  ;
+}
+
+
 
 @media (min-width:768px) {
   main p{
-    width:100%
+    width:100%;
   }
 
   main h2{
-    width:30%
+    width:30%;
+ 
+
+  
+
   }
 }
 
 
 @media (min-width:768px) {
   main p{
-    width:100%
+    width:100%;
   }
 
   main h2{
-    width:30%
+    width:30%;
   }
 
   .section-1 h3{
     width:45%;
     margin:auto;
   }
+  
 }
+
+
+
+
+
+
 
 /* sec */
